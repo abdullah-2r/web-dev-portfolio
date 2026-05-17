@@ -141,6 +141,8 @@ main {
       color: #474747;
 }
 /* ------------------------------------------------------------- */
+
+/* -------------------------------Skills-Section----------------------------- */
 .text-center {
       text-align: center;
 }
@@ -161,4 +163,41 @@ main {
 }
 .skills > p {
       margin-bottom: 50px;
+}
+/* --------------------------------------------------------- */
+/* --------------------------Resume-Section------------------------------ */
+
+.resume-container {
+      display: flex;
+      gap: 50px;
+      margin-top: 80px ;
+}
+/* .hr-color {
+      color:#D1D1D1;
+} */
+.resume-column-title {
+      font-size: 21px ;
+      font-weight: bold;
+      color: #474747;
+}
+.resume-subtitle {
+      font-size: 17px;
+      font-weight: bold;
+      color: #474747;
+
+}
+.resume-institute {
+      color: #757575;
+      font-size: 14px ;
+      font-weight: 600;
+}
+.btn-margin {
+      margin-top: 40px;
+      margin-bottom: 75px;
+
+
+}
+.resume-container hr {
+      color: #D1D1D1;
+      margin: 20px 0px;
 }
