@@ -70,7 +70,7 @@ nav h3 .letter-style {
 
 .header {
       height: 594px;
-      background-image: url(images/developer.png), url(images/header_bg.png);
+      background-image: url(../images/developer.png), url(../images/header_bg.png);
       background-repeat: no-repeat;
       background-position: top left, bottom right ;
       background-size: 75px, 600px;
