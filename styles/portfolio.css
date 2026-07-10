@@ -202,6 +202,45 @@ main {
       margin: 20px 0px;
 }
 /* -------------------------------------------------------------- */
+/* ------------------------img-collage-section start---------------- */
+
+.collage-img {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 16px;
+      grid-auto-rows: 150px;
+      grid-template-areas: 
+      "one two three"  
+      "four two six"
+      "four five six";
+
+}
+.collage-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.box-1 {
+      grid-area: one;
+}
+.box-2{
+      grid-area:two;
+}
+.box-3 {
+      grid-area:three;
+}
+.box-4 {
+      grid-area: four;
+}
+.box-5 {
+      grid-area: five;
+}
+.box-6 {
+      grid-area: six;
+}
+
+
 /* ------------------------------Footer-Section-------------------------- */
 
 .footer-container {
